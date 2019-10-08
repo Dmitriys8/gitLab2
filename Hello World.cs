@@ -20,12 +20,10 @@ class MyClass{
         return;
     }
 
-    public static int getNumberOfObjects(){
-        return numberOfObjects;
-    }
-
     public static int getNumberOfObjects2(){
         return NumberOfObjects2;
     }
+
+    public static String test;
 }
 
