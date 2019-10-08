@@ -5,6 +5,7 @@ class MyClass{
     
     private string name {get; set};
     public static int numberOfObjects;
+    public static int numberOfObjects2;
 
     public static int Main(string[] args)
     {
@@ -21,6 +22,10 @@ class MyClass{
 
     public static int getNumberOfObjects(){
         return numberOfObjects;
+    }
+
+    public static int getNumberOfObjects2(){
+        return NumberOfObjects2;
     }
 }
 
